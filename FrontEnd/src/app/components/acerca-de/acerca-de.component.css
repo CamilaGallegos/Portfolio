@@ -1,0 +1,29 @@
+div{
+    background-color: #ffeaea;
+    text-align: center;
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 27%;
+}
+@media (min-width: 575px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 90%;
+        box-shadow: -6px 3px 3px gray;
+        left: 3%;
+        top: 620px;
+    }
+}
+/*--para la vista del celular ---*/
+@media (max-width: 574px){
+    #fotoperfil{
+        position: absolute;
+        width: 31%;
+        border-radius: 79%;
+        box-shadow: 3px 3px 3px gray;
+        left: 35%;
+        top: 650px;
+    }
+}
